@@ -13,7 +13,6 @@ The goal of this lab is trying to demonstrate the overall performance improved u
 
 
 
-And the kernel link configuration shows that DDR[0] in charge of CU[0-3], DDR[1] in charge of CU[4-6], DDR[2] in charge of CU[7-10] and DDR[3] in charge of CU[11-14]:
 
 Tutorial Description
 ====================
