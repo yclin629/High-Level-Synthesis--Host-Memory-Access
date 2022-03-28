@@ -12,7 +12,9 @@ The goal of this lab is trying to demonstrate the overall performance improved u
 
 About the example on github, the U250 card is implemented for the experiment, while we use U50 in this class. There is one kernel function, 
 
-“vector-add kernel”, and it has 15 CUs(computing Unit) to be executed. Because the U250 has 4 SLRs(Super Logic Region), the 15 CUs are allocated to 4 SLRs as below:
+“vector-add kernel”, and it has 15 CUs(computing Unit) to be executed. Because the U250 has 4 SLRs(Super Logic Region), the 15 CUs are 
+
+allocated to 4 SLRs as below:
 
 
 Tutorial Description
