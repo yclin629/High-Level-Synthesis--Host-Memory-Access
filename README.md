@@ -1,6 +1,4 @@
 High-Level-Synthesis-Host-Memory-Access
-
-Host Memory Access
 ========================
 
 
