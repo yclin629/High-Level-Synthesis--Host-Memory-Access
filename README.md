@@ -9,14 +9,8 @@ Introduction
 The goal of this lab is trying to demonstrate the overall performance improved under host-memory access, compared to DDR access. About the example on github, the U250 card is implemented for the experiment, while we use U50 in this class. There is one kernel function, “vector-add kernel”, and it has 15 CUs(computing Unit) to be executed. Because the U250 has 4 SLRs(Super Logic Region), the 15 CUs are allocated to 4 SLRs as below:
 
 
-============  =====================
- SLR           Number of CUs
-============  =====================
- SLR0                4
- SLR1                3
- SLR2                4
- SLR3                4
-============  =====================
+![](https://i.imgur.com/KrlvkvL.png)
+
 
 
 And the kernel link configuration shows that DDR[0] in charge of CU[0-3], DDR[1] in charge of CU[4-6], DDR[2] in charge of CU[7-10] and DDR[3] in charge of CU[11-14]:
